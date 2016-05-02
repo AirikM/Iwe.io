@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>PSPDFKit</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- The main CSS file -->
+        <link href="css/main.css" rel="stylesheet">
+
+        <!-- CSS file for your custom modifications -->
+        <link href="css/custom.css" rel="stylesheet">
+
+        <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAA0lBMVEUAAADkSTjpSzzoTj3oRTbnSzzoTTzhSDjlRzfnTDrmSzvpTDvoSjvnTDznRzzmSzvoTDvpTDrnSDroTDvnTDzoTDznTDzoTDzoTTvnSDnoTTznTDzoSzvnTDznTDzfRznoTDvpTTroSzvqTznoTDu+NSjoTDvsTUHRQTHpTDrdSDrHNSjoTDzKPS/GOiznTDvPPi/pSz3ZRTX6bR3gRDS+MyXaSDneSTTXRTS/OCvSPzLoTDzoTDy+OCrjSjrcRjfGPS7RQTLYRDXOQDHnTDzoTDw7vX+tAAAAO3RSTlMAJBChFVPWAQsFSy95fho94nMei2vEwJJjg7H2t+f4RvA2qme7id4Hpsx1mNFtvO84QN8g5aOOKr7XfqiUP1QAAAFbSURBVDjL5ZHXUsMwEEWVOC5y7y12epxe6DAapbH//03IisGMJ/DMDOdpvXstXe1Ff4++tHj5ZdxOAchxI/8oaBWwmFO6bd2cdsQOkrGM9m/0fXnr9pwMhHioaVpyORCxOVZWp/OBQAkhBKSH5u+PlE5NNQrtXrfIPAszw6Jbz13mfY7LSlaUa8exyUD9EszC8uDUscwZxoqrJgEwLqcVV1vsUVjNgLPL8y4vutH+idJ7S0YxgD8rD42zHCoKQW2z1uYMsEQia9gON4RdS2QMOzLfml4QgDFCWgCsyMaa8m3nQz8ERnbd6fZYSmCwTj1D140ola4+Jlaln9K5v4AGgVMn8kynLAo1EULJ3u1saSIY/dKkZlaC6PBalTJWFFylbRqgV4KEEJI53Hyla2uxAAD+Z9ACcKQRN+mN1j3+HdXvajlhw2MvHfNra0zV90YBS1MKhSS+a6P/xQcmjDkUEPOTHQAAAABJRU5ErkJggg==" type="image/png"/>
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+  
+    
+    <!-- Scrollspy set in the body -->
+    <body id="home" data-spy="scroll" data-target=".main-nav" data-offset="73">
+
+    <!--///////////////////////////////////////// PARALLAX BACKGROUND ////////////////////////////////////////-->
+
+    <!-- image is set in the CSS as a background image -->
+    <div id="parallax"></div>
+
+    <!--///////////////////////////////////////// end PARALLAX BACKGROUND ////////////////////////////////////////-->
+
+
+    
+    <!--/////////////////////////////////////// NAVIGATION BAR ////////////////////////////////////////-->
+
+    <section id="header">
+
+        <nav class="navbar navbar-fixed-top" role="navigation">
+
+            <div class="navbar-inner">
+                <div class="container">
+
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#navigation"></button>
+
+                    <!-- Logo goes here - replace the image with your -->
+                    <a href="index.html" class="navbar-brand">
+                        
+                        <svg x="0px" y="0px"
+                     width="200px" height="50px" viewBox="0 0 800 200" >
+              <g fill="#c0392b" >
+                
+                    <path  d="M287.665,114.888c-2.003,0-4.026-0.589-5.795-1.818l-43.901-30.476c-4.617-3.206-5.763-9.548-2.557-14.166
+                        c3.207-4.618,9.55-5.762,14.166-2.557l43.9,30.475c4.618,3.205,5.764,9.548,2.558,14.166
+                        C294.059,113.36,290.888,114.888,287.665,114.888z"/>
+                
+                    <path  d="M52.449,84.031c-3.116,0-6.175-1.503-8.041-4.287c-2.973-4.436-1.788-10.442,2.649-13.416l41.59-27.876
+                        c4.435-2.973,11.707-2.636,14.682,1.801c2.973,4.436,1.787,10.443-2.649,13.417L57.824,82.393
+                        C56.172,83.5,54.3,84.031,52.449,84.031z"/>
+               
+                    <path  d="M201.701,53.025c-1.735,0-3.491-0.493-5.047-1.523l-48.525-32.113c-4.219-2.792-5.376-8.476-2.584-12.695
+                        c2.792-4.219,8.476-5.377,12.694-2.584l48.526,32.113c4.22,2.792,5.375,8.476,2.583,12.695
+                        C207.587,51.582,204.672,53.025,201.701,53.025z"/>
+                
+                  <path  d="M38.673,118.184c-4.95,0-9.026,3.723-9.595,8.521l-4.691-1.596c0,0,2.32,1.775,3.511,4.51
+                    s1.093,5.658,1.093,5.658l0.012-0.035v31.563c0,5.341,4.33,9.67,9.669,9.67c5.341,0,9.67-4.329,9.67-9.67v-38.951
+                    C48.343,122.513,44.014,118.184,38.673,118.184z"/>
+                </g>
+                    <g fill="#e74c3c" >
+
+                    <path  d="M149.677,66.355c-34.737,0-56.837-11.936-57.761-12.443c-1.566-0.862-7.578-3.885-11.652-5.116
+                        c-4.14-1.251-8.13,0.778-8.13,0.778s12.45-8.406,14.608-9.846c5.337-3.561,9.936-5.959,14.761-3.328
+                        c0.333,0.178,18.991,9.99,48.173,9.99c21.175,0,36.483-5.184,43.324-8.05c1.04-0.582,2.596-2.342,2.982-4.312
+                        c0.46-2.346-0.699-5.403-0.699-5.403s2.803,1.863,6.184,4.076c3.558,2.328,7.735,5.068,9.134,7.524
+                        c2.729,4.791,1.057,10.886-3.733,13.614C205.971,54.351,184.49,66.355,149.677,66.355z"/>
+
+                    <path  d="M149.508,108.869c-56.63,0-99.154-23.813-100.936-24.827c-5.131-2.918-7.408-9.415-4.489-14.546
+                        c1.367-2.403,5.921-5.19,9.882-7.798c4.488-2.955,9.312-6.242,9.312-6.242c0,0-2.087,2.93-2.179,5.937
+                        c-0.11,3.585,1.541,5.391,2.131,5.9c0.807,0.696,1.765,1.107,2.726,1.55c13.398,6.181,45.182,18.651,83.553,18.651
+                        c50.949,0,88.348-21.727,88.72-21.946c2.688-1.588,5.623-1.939,8.379-1.094c2.67,0.818,4.702,2.62,6.985,4.204
+                        c2.77,1.923,15.869,11.016,15.869,11.016s-2.948-2.05-7.202-1.296c-5.05,0.896-11.646,4.679-13.167,5.577
+                        C247.37,84.973,206.231,108.869,149.508,108.869z"/>
+               
+                     <path  d="M295.818,98.591c-1.624-2.141-4.805-3.998-8.16-6.285c-4.351-2.965-8.825-6.126-8.825-6.126l-0.8-0.528
+                    c0,0,2.129,3.095,1.892,7.008c-0.307,2.716-1.485,4.599-2.083,5.121c-0.62,0.541-1.46,1.174-2.405,1.758
+                    c-13.717,8.468-57.035,31.284-125.424,31.284c-83.338,0-129.21-33.879-129.867-34.374c-1.839-1.404-5.478-3.846-7.471-3.228
+                    c-2.745,0.852-5.351,2.356-8.204,5.31c-4.296,4.447-2.842,11.934,2.063,15.699c2.074,1.592,51.836,38.986,143.479,38.986
+                    c91.626,0,141.614-37.378,143.697-38.969C298.613,110.501,299.549,103.506,295.818,98.591z"/>
+                     <path  d="M174.514,14.88L155.875,2.588c-3.937-1.917-8.087-1.525-11.609,0.075c0,0-24.723,12.094-25.691,17.289
+                    c-0.735,3.944,11.71,8.199,17.316,7.913c5.605-0.287,10.267-0.796,16.911-4.74c5.525-3.28,8.996-5.693,10.631-6.477
+                    C169.123,13.645,174.514,14.88,174.514,14.88z"/>
+                     <path  d="M267.791,151.865c-4.651-1.68-5.355,2.217-13.234,6.574c-0.075,0.042-7.592,4.889-23.783,9.896
+                    c-0.787,0.243-1.607,0.488-2.449,0.735l2.445-0.962c-15.83,4.895-42.83,10.729-81.564,10.729
+                    c-49.557,0-85.404-12.006-103.818-20.444c-0.87-0.567-1.791-0.997-2.74-1.285c-3.209-1.553-5.76-2.94-7.622-4.054
+                    c-0.858-0.548-2.111-1.465-3.261-2.765c-1.975-2.235-2.892-5.048-2.892-5.048l-0.008,21.592l0.016-0.03
+                    c-0.001,0.026,0.003,0.054,0.002,0.079c-0.146,3.526,1.444,7.047,4.55,9.215c1.422,0.994,35.762,24.342,115.775,24.342
+                    c79.881,0,115.699-23.214,117.186-24.205c2.943-1.957,4.604-5.12,4.758-8.399C271.256,165.64,272.441,153.545,267.791,151.865z"/>
+                    </g>
+                    <g>
+
+                    <text x="320" y="150" font-family="Lato"  font-size="80pt" font-weight="300" fill="#E74C3C">
+                    iwe <tspan  fill="#34495e" >labs<tspan>
+                    </text>
+
+                    </g>
+                </svg> 
+
+
+                    </a>
+
+
+                    <div class="collapse navbar-collapse main-nav" id="navigation">
+
+
+                        <ul class="nav pull-right">
+
+                            <!-- Menu items go here -->
+                            
+                            <li><a href="index.html#gallery">&larr; Back to Home</a></li>
+        
+                       
+                        </ul>
+
+                    </div><!-- /nav-collapse -->
+                </div><!-- /container -->
+            </div><!-- /navbar-inner -->
+        </nav>
+
+    </section>
+
+    <!--//////////////////////////////////////// end NAVIGATION BAR ////////////////////////////////////////-->
+
+    
+
+    <!--/////////////////////////////////////// MAIN CONTENT SECTION ////////////////////////////////////////-->
+
+    <section id="main-content">
+
+        <div class="container">
+
+            <div class="row project">
+                <div class="col-md-8 project-media">
+                    <img src="/images/plexia-big.png" alt="portfolio image" class="img-responsive">
+                </div>
+                <div class="col-md-4 project-details">
+                    <h3>Plexia EMS</h3>
+                    <p class="lead">An iPad client for an EMS.</p>
+                    <p>We built a mobile client for a full featured electronic medical system used by thousands of physicians.</p>
+                    <h4>Steps Taken</h4>
+                    <ul>
+                        <li>iOS Development</li>
+                        <li>UI Design</li>
+                        <li>Mobile Strategy</li>
+                    </ul>
+                    <hr>
+                    <a href="http://plexia.ca" class="btn btn-primary btn-lg btn-embossed">Visit Website</a>
+                    &nbsp;
+                    <a href="index.html#gallery" class="btn btn-danger btn-lg btn-embossed">Close Project</a>
+                </div>
+            </div><!-- /row -->
+            <hr>
+
+           
+            </div><!-- /row -->
+        </div><!-- /container -->
+
+    </section>
+
+    <!--/////////////////////////////////////// end SECTION ////////////////////////////////////////-->
+
+
+
+   
+
+
+
+    <!--//////////////////////////////////////// JAVASCRIPT LOAD ////////////////////////////////////////-->
+
+    <!-- Feel free to remove the scripts you are not going to use -->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/jquery.fitvids.min.js"></script>
+    <script src="assets/twitter/jquery.tweet.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script src="js/flatui-checkbox.js"></script>
+    <script src="js/flatui-radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!--//////////////////////////////////////// end JAVASCRIPT LOAD ////////////////////////////////////////-->
+
+  </body>
+</html>
